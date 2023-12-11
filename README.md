@@ -3,15 +3,22 @@
 This project is still under planning, and you are welcome to join in the joint construction and formulation of specifications.  
 
 # mc-docs
-这是一个Minecraft模组文档库，每个模组拥有属于自己的一个或多个md文件。  
-以通过合并该仓库内的特定文件，导出整合包所需的指南或手册。  
-不论是整合包制作者还是玩家，拥有单个文件的指南(入门和进阶)或手册(配置)，比去访问每个mod的WIKI、发布页、视频更高效。   
-对于模组作者或文档作者，您可以新建一个git仓库存放md文件，然后本仓库会使用submodule挂载您的仓库，这样您可以随时管理自己的md文件。    
+这是一个Minecraft模组文档库，每个模组拥有属于自己的一个或多个md文件。以通过合并该仓库内的特定文件，导出整合包所需的指南或手册。
+不论是整合包制作者还是玩家，拥有单个文件的指南(入门和进阶)或手册(配置)，比去访问每个mod的WIKI、发布页、视频更高效。
+对于模组作者或文档作者，您可以新建一个git仓库存放md文件，然后本仓库会使用submodule挂载您的仓库，这样您可以随时管理自己的md文件。     
 
-This is a Minecraft mod document library. Each mod has its own one or more md files.   
-A modpack guide or manual can be exported by merging specific files within this repository.  
-Whether you are a modpack creator or a player, it is more efficient to have a single file guide(getting started and advanced) or manual(configuration) than visiting each mod's wiki, release page, and video.    
-For mod authors or docs authors, you can create a new git repository to store md files, and then this repository will use submodule to mount your repository, so that you can manage your own md files at any time.    
+This is a Minecraft mod document library. Each mod has its own one or more md files.
+A modpack guide or manual can be exported by merging specific files within this repository.
+Whether you are a modpack creator or a player, it is more efficient to have a single file guide(getting started and advanced) or manual(configuration) than visiting each mod's wiki, release page, and video.
+For mod authors or docs authors, you can create a new git repository to store md files, and then this repository will use submodule to mount your repository, so that you can manage your own md files at any time.  
+
+# docsify_include.md
+如果是github渲染这个README.md文件，你只能看见一个超链接"filename"。  
+如果是docsify渲染该文件，你可以看到被嵌入的docsify_include.md。  
+If github renders this README.md file, you can only see a hyperlink "filename".  
+If docsify renders the file, you can see the embedded docsify_include.md.  
+[filename](docsify_include.md ':include')
+
 #### 中文md示例
 ```markdown
 
