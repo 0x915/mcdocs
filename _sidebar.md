@@ -5,4 +5,4 @@
   * [demo-config](mods/JahxSenpoopie_MCAReborn_1.20.1_conf.zh.md)
 
 * [Merge md files]
-  * [demo-all](mods/JahxSenpoopie_MCAReborn_1.20.1.zh.md)
+  * [demo-all](mods/JahxSenpoopie_MCAReborn_1.20.1_all.zh.md)
