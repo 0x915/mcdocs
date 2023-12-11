@@ -5,26 +5,28 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
       el: '#app',
-      basePath: 'https://github.com/0x915/mcdocs/tree/main/',
+      
+      name: 'docsify',
+      logo: '/assets/icon.svg',
       repo:     'https://github.com/0x915/mcdocs/tree/main',
+      
+      relativePath: true,
+      basePath: '/mcdocs/',
+      
       maxLevel: 6,
+      
       loadNavbar: '_navbar.md',
       loadSidebar: '_sidebar.md',
       hideSidebar: false,
       homepage: 'README.md',
-      relativePath: false,
-      logo: '/assets/icon.svg',
-      name: 'docsify',
+      
       nameLink: {
         '/sc/': '/sc/',
         '/': '/',
