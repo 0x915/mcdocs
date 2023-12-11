@@ -14,7 +14,7 @@
       el: '#app',
       
       name: 'MC-Mod-Docs',
-      //logo: '/assets/icon.svg',
+      //logo: '/icon.svg',
       repo:     'https://github.com/0x915/mcdocs/tree/main',
       
       relativePath: false,
@@ -22,16 +22,16 @@
       
       maxLevel: 6,
       
-      loadNavbar: '_navbar.md',
-      loadSidebar: '_sidebar.md',
+      loadNavbar: '/_navbar.md',
+      loadSidebar: '/_sidebar.md',
       hideSidebar: false,
       homepage: 'README.md',
       
       nameLink: {
-        '/sc/': '/sc/',
         '/': '/',
+        '/sc/': '/sc/',
       },
-      //themeColor: '#3F51B5',
+      themeColor: '#648E44',
       alias: {
         '/test/(.*)': '/$1', // supports regexp
       },
@@ -76,7 +76,7 @@
         countable:true,
         fontsize:'0.9em',
         color:'rgb(90,90,90)',
-        language:'chinese'
+        language:'default'
       },
       tabs: {
         persist    : true,      // default
