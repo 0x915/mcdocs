@@ -17,8 +17,9 @@ For mod authors or docs authors, you can create a new git repository to store md
 如果是docsify渲染该文件，你可以看到被嵌入的docsify_include.md。  
 If github renders this README.md file, you can only see a hyperlink "filename".  
 If docsify renders the file, you can see the embedded docsify_include.md.  
-[DEMO:https://0x915.github.io/mcdocs/#/](https://0x915.github.io/mcdocs/#/)  
-[filename](docsify_include.md ':include')
+[demo:https://0x915.github.io/mcdocs/#/](https://0x915.github.io/mcdocs/#/)  
+  
+[filename](docsify_include.md ':include')  
 
 #### 中文md示例
 ```markdown
